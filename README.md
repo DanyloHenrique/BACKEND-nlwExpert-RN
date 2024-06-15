@@ -31,6 +31,15 @@ Copie o nome do container que deseja executar e escreva no terminal:
 docker start nomecontainer
 ```
 
+## Criar as tabelas do banco de dados
+
+No terminal, executa:
+Depois o prisma vai pedir para adicionar um nome que pode ser algo como "criando as tabelas"
+
+```bash
+npx prisma migrate dev
+```
+
 ### Executar o servidor
 
 ```bash
